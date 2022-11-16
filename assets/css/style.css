@@ -19,7 +19,7 @@ font-size: 35px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: #30353D;
 position: absolute;
-left: 1120px;
+left: 1118px;
 top: 190px;
 }
 
@@ -42,6 +42,12 @@ color: #30353D;
   z-index: 1;
   position: relative;
   color: #30353D;
+}
+
+a:link:not(#exclude), a:visited:not(#exclude) {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 
 .header nav {
@@ -94,7 +100,7 @@ z-index: 2;
 
 .square-small-1 {
 height: 90px;
-width: 175px;
+width: 185px;
 background-color: #93cccf;
 position: absolute;
 top: 960px;
@@ -104,7 +110,7 @@ z-index: 3;
 
 .square-small-2 {
 height: 90px;
-width: 175px;
+width: 215px;
 background-color: #93cccf;
 position: absolute;
 top: 1120px;
@@ -114,7 +120,7 @@ z-index: 4;
 
 .square-small-3 {
 height: 90px;
-width: 175px;
+width: 190px;
 background-color: #93cccf;
 position: absolute;
 top: 960px;
